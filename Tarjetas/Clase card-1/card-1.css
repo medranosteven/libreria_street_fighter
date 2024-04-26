@@ -1,0 +1,40 @@
+.card-1 {
+  width: 300px;
+  background-color: #2a5688;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card-1 img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #e5344e;
+}
+.card-1 .card-content {
+  padding: 20px;
+}
+.card-1 .card-content h2 {
+  color: #e3c7ab;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card-1 .card-content p {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.card-1 .card-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e5344e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.card-1 .card-content a:hover {
+  background-color: #cc1a34;
+}
+
+/*# sourceMappingURL=card-1.css.map */
