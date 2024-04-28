@@ -1,0 +1,111 @@
+//FUENTES
+//-Roboto -Montserrat -Press Start 2P -Bebas Neue -Overpass
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+//*******************
+//******VARIABLES****
+//*******************
+//Tamanio de texto
+$Texto-1: 48px;
+$Texto-2: 30px;
+$Texto-3: 24px;
+$Texto-4: 16px;
+$Texto-5: 12px;
+//Colores
+$hampton: #e3c7ab;
+$charade: #2b2a36;
+$matrix: #a25f52;
+$hippie-blue: #5c91b9;
+$rock-blue: #9abdce;
+$amaranth: #e5344e;
+$st-tropaz: #2a5688;
+$wedgewood: #4d7b95;
+$kabul: #6b473e;
+//Fuentes de Texto
+$txtRoboto: 'Roboto';
+$txtMontserrat: 'Montserrat';
+$txtPressStart2P: 'Press Start 2P';
+$txtBebasNeue: 'Bebas Neue';
+$txtOverpass: 'Overpass';
+
+//**************************
+//**********CLASES
+//**************************
+.titulo-principal{
+    font-size: $Texto-1;
+}
+
+.titulo-secundario{
+    font-size: $Texto-2;
+}
+
+.titulo-seccion{
+    font-size: $Texto-3;
+}
+
+.texto-parrafo{
+    font-size: $Texto-4;
+}
+
+.texto-pequeño{
+    font-size: $Texto-5;
+}
+
+//Clases para los colores del texto
+.TextColor-hampton{
+    color: $hampton;
+}
+
+.TextColor-charade{
+    color: $charade;
+}
+
+.TextColor-matrix{
+    color: $matrix;
+}
+
+.TextColor-hippie-blue{
+    color: $hippie-blue;
+}
+
+.TextColor-rock-blue{
+    color: $rock-blue;
+}
+
+.TextColor-amaranth{
+    color: $amaranth;
+}
+
+.TextColor-st-tropaz{
+    color: $st-tropaz;
+}
+
+.TextColor-wedgewood{
+    color: $wedgewood;
+}
+
+.TextColor-kabul{
+    color: $kabul;
+}
+
+//Tipos de Text
+.txt-Roboto{
+    font-family: $txtRoboto;
+}
+
+.txt-Montserrat{
+    font-family: $txtMontserrat;
+}
+
+.txt-PressStart2P{
+    font-family: $txtPressStart2P;
+}
+
+.txt-BebasNeue{
+    font-family: $txtBebasNeue;
+}
+
+.txt-Overpass{
+    font-family: $txtOverpass;
+}
