@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Cuadro azul */
+.alerta_street_fighter {
+  width: 54vh;
+  height: 35px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  position: relative;
+}
+.alerta_street_fighter.japon {
+  border-radius: 50%;
+  border: 3px solid #FF0000;
+}
+.alerta_street_fighter.usa {
+  background: linear-gradient(to bottom, #b22234 0%, #b22234 20%, #fff 20%, #fff 40%, #b22234 40%, #b22234 60%, #fff 60%, #fff 80%, #b22234 80%, #b22234 100%), linear-gradient(to right, #0052a5 0%, #0052a5 30%, #fff 30%, #fff 100%);
+  background-size: 100% 100%; /* Ajuste de tamaño */
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
