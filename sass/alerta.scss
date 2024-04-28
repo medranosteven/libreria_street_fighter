@@ -1,0 +1,34 @@
+$street_figther_width: 54vh;
+$street_figther_height:35px;
+$street_figther_box-sizing:border-box;
+$street_figther_border:2px solid #000;
+$street_figther_position:relative;
+
+ //bandera japon street fighter
+ $street_figther_j_border-radius:50%;
+ $street_figther_j_border:3px solid #FF0000;
+  //bandera usa street fighter
+  $street_figther_usa_background:
+  linear-gradient(to bottom, #b22234 0%, #b22234 20%, #fff 20%, #fff 40%, #b22234 40%, #b22234 60%, #fff 60%, #fff 80%, #b22234 80%, #b22234 100%), /* Franjas */
+  linear-gradient(to right, #0052a5 0%, #0052a5 30%, #fff 30%, #fff 100%); /* Cuadro azul */
+  $street_figther_usa_background-size: 100% 100%;
+  $street_figther_usa_background-repeat:no-repeat;
+.alerta_street_fighter{
+    width: $street_figther_width;
+    height: $street_figther_height;
+    box-sizing: $street_figther_box-sizing;
+    border:$street_figther_border;
+    position: $street_figther_position;
+
+    &.japon{
+        border-radius: $street_figther_j_border-radius;
+        border: $street_figther_j_border;
+    }
+
+    &.usa{
+    background:$street_figther_usa_background;
+    background-size:  $street_figther_usa_background-size; /* Ajuste de tamaño */
+    background-repeat: $street_figther_usa_background-repeat;
+    }
+    
+}
