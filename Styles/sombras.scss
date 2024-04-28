@@ -1,0 +1,38 @@
+//Sombra 1 - Color charade
+.shadow-1 {
+    // Propiedades de sombra
+    box-shadow: 0 4px 8px rgba(43,42,54,1); 
+    transition: box-shadow 0.3s ease; 
+    // Efecto al pasar el cursor
+    &:hover {
+      box-shadow: 0 8px 16px rgba(43,42,54,1.2); 
+    }
+}
+
+//Sombra 2 - Color hippie-blue
+.shadow-2 {
+    // Propiedades de sombra
+    box-shadow: 0 4px 8px rgba(92,145,185,1); 
+    transition: box-shadow 0.3s ease; 
+    // Efecto al pasar el cursor
+    &:hover {
+      box-shadow: 0 8px 16px rgba(92,145,185,1.2); 
+    }
+}
+
+//Sombra 3 - Color amaranth
+.shadow-3 {
+    // Propiedades de sombra
+    box-shadow: 0 4px 8px rgba(229,52,78,1); 
+    transition: box-shadow 0.3s ease; 
+    // Efecto al pasar el cursor
+    &:hover {
+      box-shadow: 0 8px 16px rgba(229,52,78,1.2); 
+    }
+}
+
+
+
+
+
+  
