@@ -210,4 +210,54 @@ body {
   box-shadow: 0 8px 16px rgb(229, 52, 78);
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+/* Se repite para margin-bottom (.mb-*), margin-left (.ml-*), y margin-right (.mr-*) */
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+/* Se repite para padding-top (.pt-*), padding-bottom (.pb-*), padding-left (.pl-*), y padding-right (.pr-*) */
+.border {
+  border: 1px solid #000;
+}
+
+.border-rounded {
+  border-radius: 5px;
+}
+
+.border-top {
+  border-top: 1px solid #000;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.border-left {
+  border-left: 1px solid #000;
+}
+
+.border-right {
+  border-right: 1px solid #000;
+}
+
 /*# sourceMappingURL=styles.css.map */

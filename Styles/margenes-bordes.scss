@@ -1,0 +1,67 @@
+//******MARGENES EXTERIORES
+.mt-1 { // Clase para agregar un margen superior pequeño 
+    margin-top: 0.25rem;
+}
+
+
+.mt-2 { // Clase para agregar un margen superior mediano 
+    margin-top: 0.5rem;
+}
+
+
+.mt-3 {// Clase para agregar un margen superior grande 
+    margin-top: 1rem;
+}
+/* Se repite para margin-bottom (.mb-*), margin-left (.ml-*), y margin-right (.mr-*) */
+
+//*****RELLENOS
+.p-1 { // Clase para agregar un relleno pequeño 
+    padding: 0.25rem;
+}
+
+
+.p-2 {// Clase para agregar un relleno mediano 
+    padding: 0.5rem;
+}
+
+
+.p-3 {// Clase para agregar un relleno grande 
+    padding: 1rem;
+}
+/* Se repite para padding-top (.pt-*), padding-bottom (.pb-*), padding-left (.pl-*), y padding-right (.pr-*) */
+
+//*********BORDES
+.border {// Clase para agregar un borde de 1px sólido negro 
+    border: 1px solid #000;
+}
+
+
+.border-rounded {// Clase para agregar bordes redondeados 
+    border-radius: 5px;
+}
+
+
+// Clases para bordes específicos (top, bottom, left, right) 
+// Borde superior 
+.border-top {
+    border-top: 1px solid #000;
+}
+
+// Borde inferior 
+.border-bottom {
+    border-bottom: 1px solid #000;
+}
+
+// Borde izquierdo 
+.border-left {
+    border-left: 1px solid #000;
+}
+
+// Borde derecho 
+.border-right {
+    border-right: 1px solid #000;
+}
+
+
+
+
