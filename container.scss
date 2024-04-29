@@ -1,0 +1,182 @@
+$stoppoint: (
+  xxl: 1400px,  
+  xl: 1200px,
+  l: 960px,
+  m: 720px,
+  s: 540px,
+);
+
+@mixin resize($tam){
+  @media screen and (max-width: map-get($stoppoint,$tam)){
+    @content;
+  }
+};
+
+.container{
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  @each $name, $tamanio in $stoppoint{
+    @if $tamanio > 540px{
+      
+      @include resize($name){
+        width: $tamanio - 300px;
+      }
+    }@else {
+      @include resize($name){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.container-100{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@each $name-container, $val-container in $stoppoint {
+  .contenedor-#{$name-container} {   
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @if $name-container == "s"{
+      @each $name, $tamanio in $stoppoint{
+        @if $tamanio > 540px{
+          
+          @include resize($name){
+            width: $tamanio - 300px;
+          }
+        }@else {
+          @include resize($name){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $name-container == "m"{
+      @each $name, $tamanio in $stoppoint{
+        @if $tamanio > 720px{
+          @include resize($name){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 720px{
+          @include resize($name){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $name-container == "l"{
+      @each $name, $tamanio in $stoppoint{
+        @if $tamanio > 960px{
+          @include resize($name){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 960px {
+          @include resize($name){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $name-container == "xl"{
+      @each $name, $tamanio in $stoppoint{
+        @if $tamanio > 1200px{
+          @include resize($name){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 1200px {
+          @include resize($name){
+            width: 100%;
+          }
+        }
+      }
+    }
+    @if $name-container == "xxl"{
+      @each $name, $tamanio in $stoppoint{
+        @if $tamanio > 1400px{
+          @include resize($name){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 1400px {
+          @include resize($name){
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*seccion de crear columnas y filas*/
+.fila{
+  display: grid;
+  gap: 1px;
+}
+$tam-colum:(1,2,3,4,5);
+
+@each $tamanios in $tam-colum{
+.columna-#{$tamanios}{
+  grid-template-columns: repeat(#{$tamanios},1fr);
+  @if $tamanios != 1 {
+  
+  @if $tamanios == 2 {
+      @include resize("xl"){
+      grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 3 {
+      @include resize("xl"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include resize("l"){
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 4 {
+
+      @include resize("xl"){
+          grid-template-columns: repeat(3,1fr);
+      }
+      @include resize("l"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include resize("m"){
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @if $tamanios == 5 {
+      @include resize("xl"){
+          grid-template-columns: repeat(4,1fr);
+      }
+      @include resize("l"){
+          grid-template-columns: repeat(3,1fr);
+      }
+      @include resize("m"){
+          grid-template-columns: repeat(2,1fr);
+      }
+      @include resize("s"){
+      grid-template-columns: repeat(1,1fr);
+      }
+  }
+}
+}
+}
