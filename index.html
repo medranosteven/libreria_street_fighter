@@ -4,21 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento de Prueba</title>
+    <title>Libreria Street Figther</title>
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
 
 <body>
-    <div class="card-1 txt-Roboto border shadow-2">
-        <img src="img/personaje_1.png" alt="Descripción de la imagen">
-        <div class="card-content">
-            <div>
-                <h2>Título de la Tarjeta</h2>
-                <p class="titulo-seccion">Contenido de la tarjeta...</p>
-                <a href="#">Botón</a>
-            </div>
+    <div class="Navbar-1" style="text-align: center;">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
+                <li><a href="#">GITHUB</a></li>
+            </ul>
+        </nav>
+        </di>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X</a>
+            <a class="texto-parrafo" href="#">Acerca de</a>
+            <a class="texto-parrafo" href="#">Servicios</a>
+            <a class="texto-parrafo" href="#">Clientes</a>
+            <a class="texto-parrafo" href="#">Contacto</a>
         </div>
-    </div>
+
+        <div id="principal">
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("principal").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("principal").style.marginLeft = "0";
+            }
+        </script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
