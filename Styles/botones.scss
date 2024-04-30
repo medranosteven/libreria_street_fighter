@@ -1,0 +1,49 @@
+$button-sizes: (
+  small: 0.8rem,
+  medium: 1rem,
+  large: 1.2rem
+);
+
+$button-colors: (
+  primary: #e3c7ab,
+  secondary: #2b2a36,
+  success: #a25f52,
+  danger: #5c91b9,
+);
+
+@mixin button($size, $color) {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: map-get($button-sizes, $size); 
+  font-size: map-get($button-sizes, $size); 
+  color: #fff;
+  background-color: map-get($button-colors, $color); 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(map-get($button-colors, $color), 10%); 
+  }
+}
+
+.button {
+  &--small {
+    @include button(small, primary);
+  }
+  &--medium {
+    @include button(medium, primary);
+  }
+  &--large {
+    @include button(large, primary);
+  }
+  &--secondary {
+    @include button(medium, secondary);
+  }
+  &--success {
+    @include button(medium, success);
+  }
+  &--danger {
+    @include button(medium, danger);
+  }
+}
