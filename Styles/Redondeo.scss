@@ -1,0 +1,87 @@
+@use 'alerta' as *;
+@use 'botones' as *;
+@use 'Badge' as *;
+
+$small: 10px;
+$medium: 25px;
+$large-1: 60px;
+$large-2: 100px;
+
+//
+.redondear-small{
+    border-radius: $small;
+}
+.redondear-medium{
+    border-radius: $medium;
+}
+.redondear-large-1{
+    border-radius: $large-1;
+}
+.redondear-large-2{
+    border-radius: $large-2;
+}
+
+//
+.redondear-circulo{
+    border-radius: 50%;
+}
+
+.redondear-elipse{
+    border-radius: 50% / 30%;
+}
+
+
+.redondear-small-tlr{
+    border-top-left-radius: $small;
+}
+.redondear-medium-tlr{
+    border-top-left-radius: $medium;
+}
+.redondear-large-1-tlr{
+    border-top-left-radius: $large-1;
+}
+.redondear-large-2-tlr{
+    border-top-left-radius: $large-2;
+}
+
+
+.redondear-small-trr{
+    border-top-right-radius: $small;
+}
+.redondear-medium-trr{
+    border-top-right-radius: $medium;
+}
+.redondear-large-1-trr{
+    border-top-right-radius: $large-1;
+}
+.redondear-large-2-trr{
+    border-top-right-radius: $large-2;
+}
+
+
+.redondear-small-blr{
+    border-bottom-left-radius: $small;
+}
+.redondear-medium-blr{
+    border-bottom-left-radius: $medium;
+}
+.redondear-large-1-blr{
+    border-bottom-left-radius: $large-1;
+}
+.redondear-large-2-blr{
+    border-bottom-left-radius: $large-2;
+}
+
+
+.redondear-small-brr{
+    border-bottom-right-radius: $small;
+}
+.redondear-medium-brr{
+    border-bottom-right-radius: $medium;
+}
+.redondear-large-1-brr{
+    border-bottom-right-radius: $large-1;
+}
+.redondear-large-2-brr{
+    border-bottom-right-radius: $large-2;
+}
