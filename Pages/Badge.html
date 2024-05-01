@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADGE</title>
+    <link rel="stylesheet" href="Badge.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    
+
+    <div class="Elementos-Badge">
+        <nav style="text-align: center;">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
+                <li><a href="#">GITHUB</a></li>
+            </ul>
+        </nav>
+     <div id="mySidebar" class="sidebar txt-Roboto">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X</a>
+            <a class="texto parrafo" style="color: black;" href="#">CREAR COMPONENTES</a>
+            <a class="texto-parrafo" href="#">Botones</a>
+            <a class="texto-parrafo" href="#">Formularios</a>
+            <a class="texto-parrafo" href="#">Tarjetas</a>
+            <a class="texto-parrafo" href="#">Alertas</a>
+            <a class="texto-parrafo" href="../Pages/Navbar.html">Barras de Navegacion</a>
+            <a class="texto-parrafo" href="../Pages/Badge.html">Badges</a>
+            <a class="texto-parrafo" href="#">Contenedores</a>
+
+            <a class="texto parrafo" style="color: black;" href="#">CLASES UTILITARIAS</a>
+            <a class="texto-parrafo" href="#">Modificar aspecto del texto</a>
+            <a class="texto-parrafo" href="#">Crear sombras</a>
+            <a class="texto-parrafo" href="#">Crear margenes, paddings</a>
+            <a class="texto-parrafo" href="#">Mover elementos</a>
+            <a class="texto-parrafo" href="../Pages/Redondeo.html">Redondear elementos</a>
+            <a class="texto-parrafo" href="#">Ocultar elementos</a>
+            <a class="texto-parrafo" href="#">Colores de fondo para elementos</a>
+
+        </div>
+        
+        <main class="txt-Montserrat">
+            <h1>Sección Badge Tipo Insignia</h1>
+            <p>Explora nuestra amplia gama de insignias diseñadas para destacar tus logros. Estilos de Badges versátiles diseñados para adaptarse a una amplia gama de aplicaciones.</p>
+
+            <div class="badge-container">
+                <span class="badge">Default</span>
+                <span class="badge primary">Primary</span>
+                <span class="badge secondary">Secondary</span>
+                <span class="badge success">Success</span>
+                <span class="badge danger">Danger</span>
+                <span class="badge warning">Warning</span>
+                <span class="badge info">Info</span>
+            </div>
+            
+       
+            <section id="codigo-original">
+                    <pre class="border">
+            &lt;span class="badge"&gt;Default&lt;/span&gt;
+            &lt;span class="badge primary"&gt;Primary&lt;/span&gt;
+            &lt;span class="badge secondary"&gt;Secondary&lt;/span&gt;
+            &lt;span class="badge success"&gt;Success&lt;/span&gt;
+            &lt;span class="badge danger"&gt;Danger&lt;/span&gt;
+            &lt;span class="badge warning"&gt;Warning&lt;/span&gt;
+            &lt;span class="badge info"&gt;Info&lt;/span&gt;
+                </pre>
+         </section>
+       
+
+            <p>Las imágenes de los personajes estarán definidas al lado izquierdo del badge, pero si quieres disponerlas al lado derecho puedes hacerlo con la clase: <span class="badge">.img-right</span> así: <span class="badge success img-right">Badge Personalizado</span></p>
+
+            <h1>Sección de Tamaños de Badges</h1>
+            <p>Descubre cómo nuestros badges vienen en una variedad de tamaños para adaptarse perfectamente a cualquier diseño. Estilos de Badges que pueden cambiar de estado para indicar alertas, notificaciones o información relevante.</p>
+
+            
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;h1 class="heading"&gt;Example heading &lt;span class="badge secondary"&gt;New&lt;/span&gt;&lt;/h1&gt;
+            &lt;h2 class="heading"&gt;Example heading &lt;span class="badge secondary"&gt;New&lt;/span&gt;&lt;/h2&gt;
+            &lt;h3 class="heading"&gt;Example heading &lt;span class="badge secondary"&gt;New&lt;/span&gt;&lt;/h3&gt;
+            &lt;h4 class="heading"&gt;Example heading &lt;span class="badge secondary"&gt;New&lt;/span&gt;&lt;/h4&gt;
+                    </pre>
+                </section>
+           
+            
+            
+
+            <h2>Agregar Tamaños</h2>
+
+            <div class="container">
+                <span class="badge primary small">Small Badge</span>
+                <span class="badge primary large">Large Badge</span>
+            </div>
+
+          
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;div class="container"&gt;
+                &lt;span class="badge small"&gt;Small Badge&lt;/span&gt;
+                &lt;span class="badge large"&gt;Large Badge&lt;/span&gt;
+            &lt;/div&gt;
+                    </pre>
+                </section>
+          
+            
+         
+
+            <p>El <span class="badge info small">Small Badge</span> es sutil y elegante, perfecto para cuando quieres destacar algo sin que sea demasiado llamativo. Por otro lado, el <span class="badge info large">Large Badge</span> es audaz y llamativo, ideal para cuando realmente quieres que algo destaque.</p>
+
+            <h1>Sección de Badge Tipo Notificación</h1>
+            <p>Nuestros badges ofrecen estilos versátiles que pueden adaptarse dinámicamente para indicar alertas, notificaciones o información crucial según sea necesario</p>
+            <div class="container-notification">
+                <span class="badge warning notification">
+                    Notificaciones
+                    <span class="count">5+</span>
+                </span>
+
+                <span class="badge success notification">
+                    Mensajes
+                    <span class="count">10+</span>
+                </span>
+
+                <span class="badge danger notification">
+                    Solicitudes
+                    <span class="count">3+</span>
+                </span>
+            </div>
+
+            
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;div class="container-notification"&gt;
+                &lt;span class="badge notification"&gt;
+                    Notificaciones
+                    &lt;span class="count"&gt;5+&lt;/span&gt;
+                &lt;/span&gt;
+            
+                &lt;span class="badge danger notification"&gt;
+                    Mensajes
+                    &lt;span class="count"&gt;10+&lt;/span&gt;
+                &lt;/span&gt;
+            
+                &lt;span class="badge notification"&gt;
+                    Solicitudes
+                    &lt;span class="count"&gt;3+&lt;/span&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+                    </pre>
+                </section>
+         
+            
+
+            <p>Si deseas disponer la notificación adentro del badge puedes utilizar la clase: <span class="badge">.count-inside</span> que es hijo de la clase notificación</p>
+            
+            <span class="badge success notification">
+               Badge Notificación
+               <spa class="count-inside">999+</spa>
+            </span>
+
+        
+         
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;span class="badge success notification"&gt;
+                Badge Notificación
+                &lt;span class="count-inside"&gt;999+&lt;/span&gt;
+            &lt;/span&gt;
+                    </pre>
+                </section>
+           
+               
+
+            <h1>Sección Badge Tipo Botones</h1>
+            <p>Estos botones tienen un estilo distintivo que los resalta en la interfaz. Son interactivos, ideales para destacar cierta información o estado en tu sitio web.</p>
+            <div class="container-badge-btn">
+                <button class="badge secondary">Badge como Botón</button>
+            </div>
+
+           
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;div class="container-badge-btn"&gt;
+                &lt;button class="badge"&gt;
+                    Badge como botón
+                &lt;/button&gt;
+            &lt;/div&gt;
+                    </pre>
+                </section>       
+
+            <h2>Botones con Notificación</h2>
+            <p>Variantes: una con la notificación fuera del botón con la clase: <span class="badge">.count</span> y otra con la notificación dentro del botón (clase .count-inside).</p>
+            <div class="container-notification-btn">
+                <button class="badge notification">
+                    Botón de Notificación
+                    <span>
+                        <span class="count">99+</span>
+                    </span>
+                </button>
+
+                <button class="badge notification">
+                    Botón de Notificación
+                    <span>
+                        <span class="count-inside">99+</span>
+                    </span>
+                </button>
+            </div>
+
+          
+          
+                <section id="codigo-original">
+                    <pre class="border">
+            &lt;div class="container-notification-btn"&gt;
+                &lt;button class="badge notification"&gt;
+                    Botón de Notificación
+                    &lt;span&gt;
+                        &lt;span class="count"&gt;99+&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/button&gt;
+            
+                &lt;button class="badge notification"&gt;
+                    Botón de Notificación
+                    &lt;span&gt;
+                        &lt;span class="count-inside"&gt;99+&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+                    </pre>
+                </section>
+                   
+
+            <h1>Sección Badge Tipo Iconos</h1>
+            <p>En esta sección, los badges incluyen iconos. La clase <span class="badge">.icon-left </span> coloca el icono a la izquierda del texto, y la clase: <span class="badge">.icon-right</span> lo coloca a la derecha. Estas clases permiten personalizar la posición del icono en tus badges.</p>
+            <div class="container-icon">
+                <span class="badge danger icon-left">
+                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                    Tarjetas
+                </span>
+                <span class="badge primary icon-right">
+                    Code
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </span>
+                <br> <br>
+                <span class="badge danger icon-left">
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                    Documentación
+                </span>
+                <span class="badge primary icon-right">
+                   Buscar
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </div>
+
+            <section id="codigo-original">
+                <pre class="border">
+         &lt;div class="container-icon"&gt;
+            &lt;span class="badge danger icon-left"&gt;
+                &lt;i class="fa fa-credit-card-alt" aria-hidden="true"&gt;&lt;/i&gt;
+                Tarjetas
+            &lt;/span&gt;
+            &lt;span class="badge primary icon-right"&gt;
+                Code
+                &lt;i class="fa fa-code" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;/span&gt;
+            &lt;br&gt; &lt;br&gt;
+            &lt;span class="badge danger icon-left"&gt;
+                &lt;i class="fa fa-folder-open" aria-hidden="true"&gt;&lt;/i&gt;
+                Documentación
+            &lt;/span&gt;
+            &lt;span class="badge primary icon-right"&gt;
+               Buscar
+               &lt;i class="fa fa-search" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;/span&gt;
+         &lt;/div&gt;
+                </pre>
+            </section>
+
+        </main> 
+    </div>
+</body>
+</html>

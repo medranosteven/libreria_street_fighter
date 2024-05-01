@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Redondeo.css">
+</head>
+<body>
+    <div class="Elementos-Redondear">
+        <nav style="text-align: center;">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
+                <li><a href="#">GITHUB</a></li>
+            </ul>
+        </nav>
+     <div id="mySidebar" class="sidebar txt-Roboto">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X</a>
+            <a class="texto parrafo" style="color: black;" href="#">CREAR COMPONENTES</a>
+            <a class="texto-parrafo" href="#">Botones</a>
+            <a class="texto-parrafo" href="#">Formularios</a>
+            <a class="texto-parrafo" href="#">Tarjetas</a>
+            <a class="texto-parrafo" href="#">Alertas</a>
+            <a class="texto-parrafo" href="../Pages/Navbar.html">Barras de Navegacion</a>
+            <a class="texto-parrafo" href="../Pages/Badge.html">Badges</a>
+            <a class="texto-parrafo" href="#">Contenedores</a>
+
+            <a class="texto parrafo" style="color: black;" href="#">CLASES UTILITARIAS</a>
+            <a class="texto-parrafo" href="#">Modificar aspecto del texto</a>
+            <a class="texto-parrafo" href="#">Crear sombras</a>
+            <a class="texto-parrafo" href="#">Crear margenes, paddings</a>
+            <a class="texto-parrafo" href="#">Mover elementos</a>
+            <a class="texto-parrafo" href="../Pages/Redondeo.html">Redondear elementos</a>
+            <a class="texto-parrafo" href="#">Ocultar elementos</a>
+            <a class="texto-parrafo" href="#">Colores de fondo para elementos</a>
+
+        </div>
+
+  <main class="txt-Montserrat">
+    <h1>Redondear Elementos</h1>
+    <p>Para redondear elementos, puedes utilizar nuestra clase: <span class="badge">.redondear-TAMAÑO</span> y elegir el tamaño que desees.</p>
+    <h2>Elemento redondeado a tamaño -small</h2> 
+    <div class="alerta_street usa redondear-small"></div>
+    <br>
+    <h2>Elemento redondeado a tamaño -medium</h2> 
+    <div class="alerta_street chine redondear-medium"></div>
+    <br>
+    <h2>Elemento redondeado a tamaño -large-1</h2> 
+    <div class="alerta_street spain redondear-large-1"></div>
+    <br>
+    <h2>Elemento redondeado a tamaño -large-2</h2> 
+    <div class="alerta_street chine redondear-large-2"></div>
+
+
+    <section id="codigo-original">
+        <pre class="border">
+    &lt;div class="alerta_street usa redondear-small"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street brazil redondear-medium"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street spain redondear-large-1"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street china redondear-large-2"&gt;&lt;/div&gt;
+        </pre>
+    </section>
+
+    <h1>Círculos y Elipses</h1>
+    <p>Para redondear círculos, utiliza la clase: <span class="badge">.redondear-circulo</span>. Si deseas una elipse, utiliza la clase <span class="badge">.redondear-elipse</span>.</p>
+
+
+
+    <div class="button--secondary redondear-circulo">Botón</div>
+    <br><br>
+    <div class="button--secondary redondear-elipse">Botón Elipse</div>
+
+    
+    <section id="codigo-original">
+        <pre class="border">
+    &lt;div class="button--secondary redondear-circulo"&gt;Botón&lt;/div&gt;
+    &lt;div class="button--secondary redondear-elipse"&gt;Botón Elipse&lt;/div&gt;
+        </pre>
+    </section>
+
+    <h1>Redondear Esquinas</h1>
+    <p>Para redondear esquinas, puedes utilizar la clase: <span class="badge">.redondear-ESQUINA_A_REDONDEAR-TAMAÑO</span></p>
+
+
+    <h2>Elemento redondeado de lado superior izquierdo</h2> 
+    <div class="alerta_street usa redondear-small-tlr"></div>
+    <br>
+    <h2>Elemento redondeado de lado superior derecho</h2> 
+    <div class="alerta_street usa redondear-medium-trr"></div>
+    <br>
+    <h2>Elemento redondeado de lado inferior izquierdo</h2> 
+    <div class="alerta_street spain redondear-small-blr"></div>
+    <br>
+    <h2>Elemento redondeado de lado inferior derecho</h2> 
+    <div class="alerta_street spain redondear-small-brr"></div>
+
+    <section id="codigo-original">
+        <pre class="border">
+    &lt;div class="alerta_street usa redondear-small-tlr"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street usa redondear-small-trr"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street spain redondear-small-blr"&gt;&lt;/div&gt;
+    &lt;div class="alerta_street spain redondear-small-brr"&gt;&lt;/div&gt;
+        </pre>
+    </section>    
+
+  </main>
+ </div>
+</body>
+</html>
