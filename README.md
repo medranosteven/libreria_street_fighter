@@ -31,9 +31,9 @@ Usa la consola de comandos para navegar hasta la carpeta que acabas de crear. Lu
 # Pre-requisitos 📋
 Asegúrate de tener instalados los siguientes componentes en tu máquina:
 
--Un editor de texto.
--Node.js para compilar código en SASS.
--Sass instalado previamente.
+-Un editor de texto. <br>
+-Node.js para compilar código en SASS. <br>
+-Sass instalado previamente. <br>
 
 # Instalación 🔧
 Una vez clonado el repositorio, asegúrate de que el directorio esté ubicado donde deseas tener tu proyecto.
