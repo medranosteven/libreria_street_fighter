@@ -145,6 +145,7 @@
 
 .Navbar-1 nav {
   background-color: yellow;
+  padding: 20px;
 }
 .Navbar-1 ul {
   list-style-type: none;
