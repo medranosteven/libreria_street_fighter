@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libreria Street Figther</title>
-    <link rel="stylesheet" href="Styles/styles.css">
+    <title>Barra de Navegacion</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
 </head>
 
 <body>
     <div class="Navbar-1">
         <nav style="text-align: center;">
             <ul>
-                <li><a href="index.html">INICIO</a></li>
+                <li><a href="../index.html">INICIO</a></li>
                 <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
                 <li><a href="#">GITHUB</a></li>
             </ul>
@@ -26,7 +26,7 @@
             <a class="texto-parrafo" href="#">Formularios</a>
             <a class="texto-parrafo" href="#">Tarjetas</a>
             <a class="texto-parrafo" href="#">Alertas</a>
-            <a class="texto-parrafo" href="/Pages/Navbar.html">Barras de Navegacion</a>
+            <a class="texto-parrafo" href="../Pages/Navbar.html">Barras de Navegacion</a>
             <a class="texto-parrafo" href="#">Badges</a>
             <a class="texto-parrafo" href="#">Contenedores</a>
 
@@ -38,11 +38,34 @@
             <a class="texto-parrafo" href="#">Redondear elementos</a>
             <a class="texto-parrafo" href="#">Ocultar elementos</a>
             <a class="texto-parrafo" href="#">Colores de fondo para elementos</a>
-            
+
         </div>
 
         <div id="principal">
         </div>
+
+        <main class="txt-Montserrat">
+            <section id="codigo-original">
+                <h2>Barra de Navegacion 1</h2>
+                <h3>Clase Navbar-1</h3>
+                <pre>
+                    &lt;div class="Navbar-1"&gt;
+                        &lt;nav&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Documentación&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;GITHUB&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                    &lt;/div&gt;
+                </pre>
+            </section>
+            <section id="documentacion">
+                <article>
+                    <p>La clase .Navbar-1 define estilos CSS para una barra de navegación que incluye un color de fondo amarillo, elementos de lista horizontales, enlaces con efectos de resplandor al pasar el mouse y una fuente importada de Google Fonts.</p>
+                </article>
+            </section>
+        </main>
 
         <script>
             function openNav() {
@@ -55,14 +78,8 @@
                 document.getElementById("principal").style.marginLeft = "0";
             }
         </script>
+
+
 </body>
 
 </html>
-
-
-
-
-
-
-
-
