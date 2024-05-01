@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, rgba(154,189,206,1), rgba(255, 255, 255, 0.5)), url('../img/personaje_1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa según lo transparente que desees la imagen */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Navbar-1">
+        <nav style="text-align: center;">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
+                <li><a href="#">GITHUB</a></li>
+            </ul>
+        </nav>
+        
+    <div class="container">
+        <div id="mySidebar" class="sidebar txt-Roboto">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X</a>
+            <a class="texto parrafo" style="color: black;" href="#">CREAR COMPONENTES</a>
+            <a class="texto-parrafo" href="#">Botones</a>
+            <a class="texto-parrafo" href="#">Formularios</a>
+            <a class="texto-parrafo" href="../Pages/tarjetas.html">Tarjetas</a>
+            <a class="texto-parrafo" href="#">Alertas</a>
+            <a class="texto-parrafo" href="../Pages/Navbar.html">Barras de Navegacion</a>
+            <a class="texto-parrafo" href="../Pages/Badge.html">Badges</a>
+            <a class="texto-parrafo" href="../Pages/Container.html">Contenedores</a>
+
+            <a class="texto parrafo" style="color: black;" href="#">CLASES UTILITARIAS</a>
+            <a class="texto-parrafo" href="#">Modificar aspecto del texto</a>
+            <a class="texto-parrafo" href="#">Crear sombras</a>
+            <a class="texto-parrafo" href="#">Crear margenes, paddings</a>
+            <a class="texto-parrafo" href="#">Mover elementos</a>
+            <a class="texto-parrafo" href="../Pages/Redondeo.html">Redondear elementos</a>
+            <a class="texto-parrafo" href="#">Ocultar elementos</a>
+            <a class="texto-parrafo" href="#">Colores de fondo para elementos</a>
+        </div>
+
+        <main class="txt-Montserrat">
+            <h1 class="TextColor-st-tropaz">Contenedores</h1>
+            <p class="txt-Roboto">Los container estan divididos en 3 tipos: <span class="badge secondary">container, container-(s,m, l, xl y xxl) y container-100</span></p>
+            
+            <h2 class="TextColor-amaranth">Container</h2>
+            <p class="shadow-3">Este container tiene la capacidad de ajustarse en cada uno de los "stoppoint", que son simplemente las resoluciones predefinidas, que son:</p>
+            <p class="txt-Overpass"><span class="TextColor-wedgewood">s</span>: Tamaño <= 540px</p>
+            <p class="txt-Overpass"><span class="TextColor-wedgewood">m</span>: Tamaño <= 720px</p>
+            <p class="txt-Overpass"><span class="TextColor-wedgewood">l</span>: Tamaño <= 960px</p>
+            <p class="txt-Overpass"><span class="TextColor-wedgewood">xl</span>: Tamaño <= 1200px</p>
+            <p class="txt-Overpass"><span class="TextColor-wedgewood">xxl</span>: Tamaño <= 1400px</p>
+            <p class="shadow-3">Cuando el container alcanza uno de estos puntos de alto, se ajusta a 250px menos que su tamaño actual para evitar desbordamientos. Sin embargo, cuando llega a 540px, su tamaño se establece en el 100% del espacio disponible en el container padre. Esta configuración se declara en la clase como "container".</p>
+    
+            <h2 class="TextColor-amaranth">Container-(s, m, l, xl y xxl)</h2>
+            <p class="shadow-1">La funcionalidad de estos containers es la siguiente: cuando su tamaño excede su resolución mínima, se ajustan a 250px menos que su punto de detención (stoppoint), pero al alcanzar este punto (stoppoint), ocupan el 100% del espacio disponible en la pantalla.</p>
+            <p class="shadow-1">Cuando un contenedor alcanza uno de estos puntos de parada (stoppoint), se ajusta a una longitud 250px menor que su tamaño actual para evitar desbordamientos. Sin embargo, cuando alcanza una anchura de 540px, su tamaño se establece en el 100% del espacio disponible en el contenedor padre. Esta funcionalidad se declara en la clase con un subfijo específico, como "container-s" o "container-m".</p>
+    
+            <h2 class="TextColor-amaranth">Container-100</h2>
+            <p class="shadow-2">Este container tiene la capacidad de alcanzar el 100% del contenedor padre, eliminando cualquier tipo de margin o padding, y ocupando todo el espacio disponible. Es útil para ser utilizado como un containerr principal o un div donde se requiera ocupar el 100% del tamaño disponible.</p>
+    
+            <h2 class="TextColor-amaranth">Filas y columnas</h2>
+            <p class="shadow-2">El empleo de filas y columnas contribuye significativamente a la capacidad de respuesta del diseño de una página web. En esta biblioteca, ofrecemos un sistema de modelado de columnas y filas. Para empezar, es necesario crear un container principal con la clase "fila". Por ejemplo, utilizando un elemento div como este: <span class="badge danger">&lt;div class="fila"&gt;&lt;/div&gt;</span> dentro de este container, se define también el modelo de columnas, como se muestra a continuación: <span class="badge success">&lt;div class="fila columna-5"&gt;&lt;/div&gt;</span> cada elemento dentro de este div se ajustará al modelo de 5 columnas, y las filas se generan automáticamente. Los tipos de columnas disponibles son los siguientes:</p>
+    
+            <p class="txt-PressStart2P"><span class="TextColor-kabul">columna-5</span>: Se generan 5 columnas</p>
+            <p class="txt-PressStart2P"><span class="TextColor-kabul">columna-4</span>: Se generan 4 columnas</p>
+            <p class="txt-PressStart2P"><span class="TextColor-kabul">columna-3</span>: Se generan 3 columnas</p>
+            <p class="txt-PressStart2P"><span class="TextColor-kabul">columna-2</span>: Se generan 2 columnas</p>
+            <p class="txt-PressStart2P"><span class="TextColor-kabul">columna-1</span>: Se genera una sola columna</p>
+    
+            <p class="shadow-2">Cuando las columnas alcanzan los "puntos de alto" mencionados anteriormente, se adaptan una por una. Por ejemplo, al llegar al primer punto de alto, una columna de tamaño 5 se reducirá a 4, y así sucesivamente, hasta que solo quede 1 columna.</p>
+
+
+        </main>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("principal").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("principal").style.marginLeft = "0";
+        }
+    </script>
+    </div>
+    <footer class="txt-Roboto texto-parrafo">
+        <p>&copy; 2024 Biblioteca de Estilos Street Fighter II. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
