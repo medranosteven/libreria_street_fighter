@@ -146,21 +146,29 @@
 .Navbar-1 nav {
   background-color: yellow;
   padding: 10px;
-  display: flex; /* Utilizamos flexbox */
-  justify-content: center; /* Centramos horizontalmente */
-  align-items: center; /* Centramos verticalmente */
+  display: flex;
+  justify-content: center;
 }
 .Navbar-1 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 .Navbar-1 li {
-  display: inline-block;
+  margin-right: 20px;
+}
+.Navbar-1 .icon-container {
+  display: flex;
+  align-items: center;
+}
+.Navbar-1 .icon {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
 }
 .Navbar-1 a {
-  display: block;
-  padding: 10px 20px;
   color: black;
   text-decoration: none;
   position: relative;
