@@ -58,6 +58,8 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 </head>
 ```
 # Construido con 🛠️
+![Guile_flashkick](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/2d28798a-7016-46e3-904c-f912323ee3f1)
+
 - Visual Studio Code - Editor de texto utilizado para codificar la biblioteca.
 - Node.js - Utilizado para compilar código en Sass.
 
