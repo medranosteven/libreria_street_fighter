@@ -6,15 +6,21 @@
 ¡Bienvenido al mundo de la lucha callejera, donde la adrenalina y la emoción se encuentran en cada esquina! La Biblioteca de Estilos Hadouken basada en Street Fighter II te sumerge en el universo del legendario videojuego de lucha que cautivó a una generación entera. Inspirada en los icónicos personajes, escenarios vibrantes y movimientos de combate memorables, esta biblioteca de estilos te permite capturar la esencia y la energía del clásico de los videojuegos.
 
 # Sobre la Biblioteca de Estilos
+![ken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/6cd9c9c0-479c-4b04-99d9-ff39ccf02826)
+
 Esta biblioteca de estilos está diseñada para capturar la estética distintiva de Street Fighter II y llevarla al mundo del diseño web. Utilizando SASS como herramienta principal, hemos creado una serie de variables, mixins y estilos predefinidos que te permitirán incorporar elementos visuales inspirados en el juego en tus proyectos web de una manera fácil y eficiente.
 
 # Contenidos
+![chunli-street-fighter](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/7050c7ed-7381-4ad7-9e34-34c7f5f32f5c)
+
 - Variables <br>
 - Mixins <br>
 - Estilos predefinidos <br>
 Con la Biblioteca de Estilos Street Fighter II, puedes llevar la emoción y la nostalgia de este clásico de los videojuegos a tus proyectos de diseño web. ¡Prepárate para la batalla! <br>
 
 # Guía de Instalación 🚀
+![bison-huge-super](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/d35b7b14-2ea6-4938-96ac-f557112067a1)
+
 Estas instrucciones te ayudarán a obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 1. Acceder al Repositorio
@@ -33,6 +39,8 @@ Crea una nueva carpeta en el directorio de tu computadora donde deseas almacenar
 Usa la consola de comandos para navegar hasta la carpeta que acabas de crear. Luego, ejecuta el siguiente comando para clonar el repositorio: `git clone <enlace-del-repositorio>`
 
 # Pre-requisitos 📋
+![cammy](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/ba8ece0f-c587-438d-8126-83e7ba08f891)
+
 Asegúrate de tener instalados los siguientes componentes en tu máquina:
 
 -Un editor de texto. <br>
@@ -50,6 +58,8 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 </head>
 ```
 # Construido con 🛠️
+![Guile_flashkick](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/2d28798a-7016-46e3-904c-f912323ee3f1)
+
 - Visual Studio Code - Editor de texto utilizado para codificar la biblioteca.
 - Node.js - Utilizado para compilar código en Sass.
 
