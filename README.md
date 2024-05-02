@@ -55,6 +55,7 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 - Yair Ariel Nieto Amaya <br>
 - Brayan Josue Granados Villalobos <br>
 - Jesus Steven Medrano Carballo
+![nombres](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/1d507a6d-ebdb-4c06-85f1-9e1846cd2544)
 
 ![Street-Fighter-II-2-5-2024](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/0db1eedd-60f8-430a-bd2a-c3d605e2f519)
 
