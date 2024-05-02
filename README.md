@@ -1,3 +1,5 @@
+![Street-Fighter-II-2-5-2024](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/0db1eedd-60f8-430a-bd2a-c3d605e2f519)
+
 # Libreria Estilos Hadouken
 ¡Bienvenido al mundo de la lucha callejera, donde la adrenalina y la emoción se encuentran en cada esquina! La Biblioteca de Estilos Hadouken basada en Street Fighter II te sumerge en el universo del legendario videojuego de lucha que cautivó a una generación entera. Inspirada en los icónicos personajes, escenarios vibrantes y movimientos de combate memorables, esta biblioteca de estilos te permite capturar la esencia y la energía del clásico de los videojuegos.
 
@@ -50,12 +52,6 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 - Node.js - Utilizado para compilar código en Sass.
 
 # Autores
-- Kelly Alexandra Garcia Berrios <br>
-- Freddy Anastasio Villatoro Ramirez <br>
-- Yair Ariel Nieto Amaya <br>
-- Brayan Josue Granados Villalobos <br>
-- Jesus Steven Medrano Carballo
 ![nombres](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/1d507a6d-ebdb-4c06-85f1-9e1846cd2544)
 
-![Street-Fighter-II-2-5-2024](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/0db1eedd-60f8-430a-bd2a-c3d605e2f519)
 
