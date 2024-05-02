@@ -986,6 +986,16 @@ img {
   }
 }
 
+/*seccion para ocultar y mostrar elemento*/
+.ocultar {
+  visibility: hidden;
+}
+
+.mostrar {
+  visibility: visible;
+}
+
+
 /*seccion de crear columnas y filas*/
 .fila {
   display: grid;

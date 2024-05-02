@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, rgba(154,189,206,1), rgba(255, 255, 255, 0.5)), url('../img/personaje_1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa según lo transparente que desees la imagen */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Navbar-1">
+        <nav style="text-align: center;">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACION</a></li>
+                <li><a href="#">GITHUB</a></li>
+            </ul>
+        </nav>
+        
+    <div class="container">
+        <div id="mySidebar" class="sidebar txt-Roboto">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X</a>
+            <a class="texto parrafo" style="color: black;" href="#">CREAR COMPONENTES</a>
+            <a class="texto-parrafo" href="#">Botones</a>
+            <a class="texto-parrafo" href="#">Formularios</a>
+            <a class="texto-parrafo" href="../Pages/tarjetas.html">Tarjetas</a>
+            <a class="texto-parrafo" href="#">Alertas</a>
+            <a class="texto-parrafo" href="../Pages/Navbar.html">Barras de Navegacion</a>
+            <a class="texto-parrafo" href="../Pages/Badge.html">Badges</a>
+            <a class="texto-parrafo" href="../Pages/Container.html">Contenedores</a>
+
+            <a class="texto parrafo" style="color: black;" href="#">CLASES UTILITARIAS</a>
+            <a class="texto-parrafo" href="#">Modificar aspecto del texto</a>
+            <a class="texto-parrafo" href="#">Crear sombras</a>
+            <a class="texto-parrafo" href="#">Crear margenes, paddings</a>
+            <a class="texto-parrafo" href="#">Mover elementos</a>
+            <a class="texto-parrafo" href="../Pages/Redondeo.html">Redondear elementos</a>
+            <a class="texto-parrafo" href="../Pages/Ocultar.html">Ocultar elementos</a>
+            <a class="texto-parrafo" href="#">Colores de fondo para elementos</a>
+        </div>
+
+        <main class="txt-Montserrat">
+           <h1 class="TextColor-amaranth">Ocultar elementos</h1>
+           <p class="txt-PressStart2P texto-pequeño">Para ocultar o mostrar los elementos, simplemente se agrega la clase
+             correspondiente <span class="badge danger">ocultar</span> y para mostrar los elementos ocultos solo se quita la clase correspondiente <span class="badge success">mostrar </span> ejemplo:</p>
+             <div class="m-5">
+                <div class="titulo-principal shadow-3 mt-3 border ocultar">Este elemento esta oculto</div>
+            </div>
+            <p class="shadow-2 txt-Roboto">En el ejemplo previo, el div no es visible ya que está oculto, sin embargo, continúa ocupando espacio en la página. Puedes verificar esto inspeccionando 
+                la página con Ctrl + Shift + I o F12 y observando su presencia en el código fuente..</p>
+            <p class="txt-PressStart2P TextColor-charade">Codigo</p>
+            <div style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+                <div class="m-5">
+                    <span><</span>div
+                    <span>class</span>="titulo-principal shadow-3 mt-3 border ocultar">Este elemento esta oculto<span><</span>/div></span>
+                </div>
+            </div>
+            <h1 class="TextColor-amaranth">Mostrar elementos ocultos</h1>
+            <p class="shadow-2">
+                Para mostrar elementos que están ocultos, simplemente se agrega la clase correspondiente <span class="badge success">mostrar</span> si aplicamos la clase adecuada, los elementos ocultos 
+                se mostrarán en pantalla. Ahora, para mostrar el div del ejemplo anterior, simplemente eliminamos la clase que lo estaba ocultando. Si la clase de oculto es "ocultar", entonces basta con quitar esa clase del elemento div.</p>
+            <div class="m-5">
+                <div class="titulo-principal shadow-3 mt-3 border mostrar">Este elemento esta oculto</div>
+            </div>
+            <p class="shadow-2">Como puedes ver, el objeto, en este caso el div, vuelve a aparecer en la pantalla 
+                tal como habíamos previsto, una vez que hemos quitado la clase de ocultar.</p>
+            <p class="txt-PressStart2P TextColor-charade">Codigo</p>
+            <div style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+                <div class="m-5">
+                    <span><</span>div
+                    <span>class</span>="titulo-principal shadow-3 mt-3 border mostrar">Este div esta oculto.<span><</span>/div></span>
+                </div>
+            </div>
+        </div>
+             
+             <p class="titulo-seccion shadow-2 txt-Roboto TextColor-charade">Esta práctica resulta especialmente útil para gestionar la visibilidad de elementos en
+                diferentes contextos o en respuesta a eventos específicos. Al agregar la clase de ocultar, los elementos se vuelven
+                 invisibles para el usuario, mientras que al quitarla, vuelven a ser visibles. Esto proporciona un método sencillo y 
+                 efectivo para controlar la presentación de contenido en una página web.</p>
+        </main>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("principal").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("principal").style.marginLeft = "0";
+        }
+    </script>
+    </div>
+    <footer class="txt-Roboto texto-parrafo">
+        <p>&copy; 2024 Biblioteca de Estilos Street Fighter II. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
