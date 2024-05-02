@@ -39,6 +39,8 @@ Crea una nueva carpeta en el directorio de tu computadora donde deseas almacenar
 Usa la consola de comandos para navegar hasta la carpeta que acabas de crear. Luego, ejecuta el siguiente comando para clonar el repositorio: `git clone <enlace-del-repositorio>`
 
 # Pre-requisitos 📋
+![cammy](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/ba8ece0f-c587-438d-8126-83e7ba08f891)
+
 Asegúrate de tener instalados los siguientes componentes en tu máquina:
 
 -Un editor de texto. <br>
