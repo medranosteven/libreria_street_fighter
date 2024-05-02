@@ -1062,4 +1062,11 @@ img {
   }
 }
 
+body {
+  background: linear-gradient(to bottom, rgb(154, 189, 206), rgba(255, 255, 255, 0.5)), url("../img/personaje_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa según lo transparente que desees la imagen */
+}
+
 /*# sourceMappingURL=styles.css.map */
