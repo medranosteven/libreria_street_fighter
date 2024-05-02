@@ -182,9 +182,10 @@ $tam-colum:(1,2,3,4,5);
 }
 
 body {
-  background: linear-gradient(to bottom, rgba(154,189,206,1), rgba(255, 255, 255, 0.5)), url('../img/personaje_1.png');
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #2a5688, #e3c7ab); 
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa según lo transparente que desees la imagen */
-
+  background-position: center;
+  background-attachment: fixed; 
 }

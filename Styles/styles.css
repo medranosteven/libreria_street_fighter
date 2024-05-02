@@ -145,7 +145,10 @@
 
 .Navbar-1 nav {
   background-color: yellow;
-  padding: 20px;
+  padding: 10px;
+  display: flex; /* Utilizamos flexbox */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center; /* Centramos verticalmente */
 }
 .Navbar-1 ul {
   list-style-type: none;
@@ -986,16 +989,6 @@ img {
   }
 }
 
-/*seccion para ocultar y mostrar elemento*/
-.ocultar {
-  visibility: hidden;
-}
-
-.mostrar {
-  visibility: visible;
-}
-
-
 /*seccion de crear columnas y filas*/
 .fila {
   display: grid;
@@ -1073,10 +1066,12 @@ img {
 }
 
 body {
-  background: linear-gradient(to bottom, rgb(154, 189, 206), rgba(255, 255, 255, 0.5)), url("../img/personaje_1.png");
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #2a5688, #e3c7ab);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa según lo transparente que desees la imagen */
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=styles.css.map */

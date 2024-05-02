@@ -7,7 +7,10 @@ $color-destello: rgba(229, 52, 78, 0.5);
 .Navbar-1 {
     nav {
         background-color: $color-fondo;
-        padding: 20px;
+        padding: 10px;
+        display: flex; /* Utilizamos flexbox */
+        justify-content: center; /* Centramos horizontalmente */
+        align-items: center; /* Centramos verticalmente */
     }
 
     ul {
@@ -49,6 +52,7 @@ $color-destello: rgba(229, 52, 78, 0.5);
         }
     }
 }
+
 
 body {
     margin: 0;
