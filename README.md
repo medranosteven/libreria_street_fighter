@@ -9,6 +9,8 @@
 Esta biblioteca de estilos está diseñada para capturar la estética distintiva de Street Fighter II y llevarla al mundo del diseño web. Utilizando SASS como herramienta principal, hemos creado una serie de variables, mixins y estilos predefinidos que te permitirán incorporar elementos visuales inspirados en el juego en tus proyectos web de una manera fácil y eficiente.
 
 # Contenidos
+![chunli-street-fighter](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/7050c7ed-7381-4ad7-9e34-34c7f5f32f5c)
+
 - Variables <br>
 - Mixins <br>
 - Estilos predefinidos <br>
