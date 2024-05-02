@@ -19,6 +19,8 @@ Esta biblioteca de estilos está diseñada para capturar la estética distintiva
 Con la Biblioteca de Estilos Street Fighter II, puedes llevar la emoción y la nostalgia de este clásico de los videojuegos a tus proyectos de diseño web. ¡Prepárate para la batalla! <br>
 
 # Guía de Instalación 🚀
+![bison-huge-super](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/d35b7b14-2ea6-4938-96ac-f557112067a1)
+
 Estas instrucciones te ayudarán a obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 1. Acceder al Repositorio
