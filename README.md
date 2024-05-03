@@ -3,7 +3,7 @@
 # Libreria Estilos Hadouken
 ![hadouken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/6c7e6676-14d1-4f85-ab54-a7190fe02af8)
   
-<span style="color:red;">¡Bienvenido al mundo de la lucha callejera, donde la adrenalina y la emoción se encuentran en cada esquina! La Biblioteca de Estilos Hadouken basada en Street Fighter II te sumerge en el universo del legendario videojuego de lucha que cautivó a una generación entera. Inspirada en los icónicos personajes, escenarios vibrantes y movimientos de combate memorables, esta biblioteca de estilos te permite capturar la esencia y la energía del clásico de los videojuegos.</span>
+`&#x1F538;&#xFF0000;¡Bienvenido al mundo de la lucha callejera, donde la adrenalina y la emoción se encuentran en cada esquina! La Biblioteca de Estilos Hadouken basada en Street Fighter II te sumerge en el universo del legendario videojuego de lucha que cautivó a una generación entera. Inspirada en los icónicos personajes, escenarios vibrantes y movimientos de combate memorables, esta biblioteca de estilos te permite capturar la esencia y la energía del clásico de los videojuegos.&#xFF0000;&#x1F538;`
 
 # Sobre la Biblioteca de Estilos
 ![ken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/6cd9c9c0-479c-4b04-99d9-ff39ccf02826)
