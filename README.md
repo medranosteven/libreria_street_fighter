@@ -72,5 +72,5 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 
 # Redes Sociales
 
-Sígueme en Facebook: &#127988; [https://www.facebook.com/tunombre](https://www.facebook.com/tunombre)
-Sígueme en Twitter: &#128335; [https://twitter.com/tunombre](https://twitter.com/tunombre)
+Facebook: &#9115; [https://www.facebook.com/tunombre](https://www.facebook.com/tunombre)
+Twitter: &#9115; [https://twitter.com/tunombre](https://twitter.com/tunombre)
