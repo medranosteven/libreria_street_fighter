@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Street Fighter - Ejemplo de Uso</title>
+  <link rel="stylesheet" href="colors.css">
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .column {
+      flex: 0 0 20%; 
+      max-width: 20%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .box {
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      color: #fff;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div class="box sf-bg-red">
+          <h2>Rojo</h2>
+        </div>
+        <div class="box sf-bg-red-light">
+          <h2>Rojo Claro</h2>
+        </div>
+        <div class="box sf-bg-red-dark">
+          <h2>Rojo Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-blue">
+          <h2>Azul</h2>
+        </div>
+        <div class="box sf-bg-blue-light">
+          <h2>Azul Claro</h2>
+        </div>
+        <div class="box sf-bg-blue-dark">
+          <h2>Azul Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-green">
+          <h2>Verde</h2>
+        </div>
+        <div class="box sf-bg-green-light">
+          <h2>Verde Claro</h2>
+        </div>
+        <div class="box sf-bg-green-dark">
+          <h2>Verde Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-yellow">
+          <h2>Amarillo</h2>
+        </div>
+        <div class="box sf-bg-yellow-light">
+          <h2>Amarillo Claro</h2>
+        </div>
+        <div class="box sf-bg-yellow-dark">
+          <h2>Amarillo Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-purple">
+          <h2>Púrpura</h2>
+        </div>
+        <div class="box sf-bg-purple-light">
+          <h2>Púrpura Claro</h2>
+        </div>
+        <div class="box sf-bg-purple-dark">
+          <h2>Púrpura Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-orange">
+          <h2>Naranja</h2>
+        </div>
+        <div class="box sf-bg-orange-light">
+          <h2>Naranja Claro</h2>
+        </div>
+        <div class="box sf-bg-orange-dark">
+          <h2>Naranja Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-pink">
+          <h2>Rosa</h2>
+        </div>
+        <div class="box sf-bg-pink-light">
+          <h2>Rosa Claro</h2>
+        </div>
+        <div class="box sf-bg-pink-dark">
+          <h2>Rosa Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-cyan">
+          <h2>Cian</h2>
+        </div>
+        <div class="box sf-bg-cyan-light">
+          <h2>Cian Claro</h2>
+        </div>
+        <div class="box sf-bg-cyan-dark">
+          <h2>Cian Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-indigo">
+          <h2>Índigo</h2>
+        </div>
+        <div class="box sf-bg-indigo-light">
+          <h2>Índigo Claro</h2>
+        </div>
+        <div class="box sf-bg-indigo-dark">
+          <h2>Índigo Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-teal">
+          <h2>Verde Azulado</h2>
+        </div>
+        <div class="box sf-bg-teal-light">
+          <h2>Verde Azulado Claro</h2>
+        </div>
+        <div class="box sf-bg-teal-dark">
+          <h2>Verde Azulado Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-brown">
+          <h2>Marrón</h2>
+        </div>
+        <div class="box sf-bg-brown-light">
+          <h2>Marrón Claro</h2>
+        </div>
+        <div class="box sf-bg-brown-dark">
+          <h2>Marrón Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-grey">
+          <h2>Gris</h2>
+        </div>
+        <div class="box sf-bg-grey-light">
+          <h2>Gris Claro</h2>
+        </div>
+        <div class="box sf-bg-grey-dark">
+          <h2>Gris Oscuro</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box sf-bg-black">
+          <h2>Negro</h2>
+        </div>
+        <div class="column"></div>
+        <div class="box sf-bg-white">
+          <h2>Blanco</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
