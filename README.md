@@ -23,19 +23,19 @@ Con la Biblioteca de Estilos Street Fighter II, puedes llevar la emoción y la n
 
 Estas instrucciones te ayudarán a obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-&#49; Acceder al Repositorio
+&#9312; Acceder al Repositorio
 Accede al repositorio en GitHub utilizando tus credenciales como colaborador.
 
-2. Obtener el Enlace del Repositorio
+&#9313; Obtener el Enlace del Repositorio
 Dirígete al botón "CODE" (en verde) en la página del repositorio y copia el enlace del repositorio.
 
-3. Configurar el Entorno de Desarrollo
+&#9314; Configurar el Entorno de Desarrollo
 Abre tu entorno de desarrollo preferido, como Visual Studio Code.
 
-4. Crear una Carpeta Local
+&#9315; Crear una Carpeta Local
 Crea una nueva carpeta en el directorio de tu computadora donde deseas almacenar el proyecto.
 
-5. Clonar el Repositorio
+&#9316; Clonar el Repositorio
 Usa la consola de comandos para navegar hasta la carpeta que acabas de crear. Luego, ejecuta el siguiente comando para clonar el repositorio: `git clone <enlace-del-repositorio>`
 
 # Pre-requisitos 📋
@@ -62,7 +62,7 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 # Construido con 🛠️
 ![Guile_flashkick](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/2d28798a-7016-46e3-904c-f912323ee3f1)
 
-&#10145; Visual Studio Code - Editor de texto utilizado para codificar la biblioteca.
+&#10145; Visual Studio Code - Editor de texto utilizado para codificar la biblioteca.<br>
 &#10145; Node.js - Utilizado para compilar código en Sass.
 
 # Autores &#127988;
