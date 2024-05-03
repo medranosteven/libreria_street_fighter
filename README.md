@@ -48,6 +48,8 @@ Asegúrate de tener instalados los siguientes componentes en tu máquina:
 -Sass instalado previamente. <br>
 
 # Instalación 🔧
+![blanka](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/4fdcf7cc-1e7d-41a0-aad9-b6a73fec6238)
+
 Una vez clonado el repositorio, asegúrate de que el directorio esté ubicado donde deseas tener tu proyecto.
 
 Para importar las bibliotecas de estilos, incluye el archivo style.css en el <head> de tu documento HTML de la siguiente manera:
@@ -58,6 +60,8 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 </head>
 ```
 # Construido con 🛠️
+![Guile_flashkick](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/2d28798a-7016-46e3-904c-f912323ee3f1)
+
 - Visual Studio Code - Editor de texto utilizado para codificar la biblioteca.
 - Node.js - Utilizado para compilar código en Sass.
 
