@@ -212,7 +212,7 @@ body {
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 5px;
   text-decoration: none;
   color: white;
   display: block;
@@ -252,6 +252,7 @@ main {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  background-color: white;
 }
 
 footer {
@@ -1076,10 +1077,169 @@ img {
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to bottom right, #2a5688, #e3c7ab);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #e3c7ab;
+}
+
+.ocultar {
+  visibility: hidden;
+}
+
+.mostrar {
+  visibility: visible;
+}
+
+/* Variables de colores */
+/* Colores de fondo */
+.sf-bg-red {
+  background-color: red;
+}
+
+.sf-bg-red-light {
+  background-color: lightcoral;
+}
+
+.sf-bg-red-dark {
+  background-color: darkred;
+}
+
+.sf-bg-blue {
+  background-color: blue;
+}
+
+.sf-bg-blue-light {
+  background-color: lightblue;
+}
+
+.sf-bg-blue-dark {
+  background-color: darkblue;
+}
+
+.sf-bg-green {
+  background-color: green;
+}
+
+.sf-bg-green-light {
+  background-color: lightgreen;
+}
+
+.sf-bg-green-dark {
+  background-color: darkgreen;
+}
+
+.sf-bg-yellow {
+  background-color: yellow;
+}
+
+.sf-bg-yellow-light {
+  background-color: lightyellow;
+}
+
+.sf-bg-yellow-dark {
+  background-color: darkkhaki;
+}
+
+.sf-bg-purple {
+  background-color: purple;
+}
+
+.sf-bg-purple-light {
+  background-color: lavender;
+}
+
+.sf-bg-purple-dark {
+  background-color: indigo;
+}
+
+.sf-bg-orange {
+  background-color: orange;
+}
+
+.sf-bg-orange-light {
+  background-color: lightsalmon;
+}
+
+.sf-bg-orange-dark {
+  background-color: darkorange;
+}
+
+.sf-bg-pink {
+  background-color: pink;
+}
+
+.sf-bg-pink-light {
+  background-color: lightpink;
+}
+
+.sf-bg-pink-dark {
+  background-color: hotpink;
+}
+
+.sf-bg-cyan {
+  background-color: cyan;
+}
+
+.sf-bg-cyan-light {
+  background-color: lightcyan;
+}
+
+.sf-bg-cyan-dark {
+  background-color: darkcyan;
+}
+
+.sf-bg-indigo {
+  background-color: indigo;
+}
+
+.sf-bg-indigo-light {
+  background-color: mediumslateblue;
+}
+
+.sf-bg-indigo-dark {
+  background-color: midnightblue;
+}
+
+.sf-bg-teal {
+  background-color: teal;
+}
+
+.sf-bg-teal-light {
+  background-color: paleturquoise;
+}
+
+.sf-bg-teal-dark {
+  background-color: darkslategray;
+}
+
+.sf-bg-brown {
+  background-color: brown;
+}
+
+.sf-bg-brown-light {
+  background-color: burlywood;
+}
+
+.sf-bg-brown-dark {
+  background-color: saddlebrown;
+}
+
+.sf-bg-grey {
+  background-color: gray;
+}
+
+.sf-bg-grey-light {
+  background-color: lightgray;
+}
+
+.sf-bg-grey-dark {
+  background-color: darkgray;
+}
+
+.sf-bg-black {
+  background-color: black;
+}
+
+.sf-bg-white {
+  background-color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

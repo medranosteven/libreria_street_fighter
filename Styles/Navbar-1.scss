@@ -84,11 +84,12 @@ body {
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 5px;
     text-decoration: none;
     color: white;
     display: block;
     transition: 0.3s;
+    
 }
 
 .sidebar a:hover {
@@ -124,6 +125,7 @@ main {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: white;
 }
 
 footer {
