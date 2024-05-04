@@ -68,7 +68,6 @@ Para importar las bibliotecas de estilos, incluye el archivo style.css en el <he
 # Autores &#127988;
 ![nombres](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/1d507a6d-ebdb-4c06-85f1-9e1846cd2544)
 ![ryuyken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/8b885f65-de01-4d9a-90b3-2033eda12a49)
-<blockquote>
-<p><span class="color-fg-attention"><svg>...</svg>Warning</span><br>
-This is a warning</p>
-</blockquote>
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
