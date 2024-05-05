@@ -1,0 +1,57 @@
+
+// Definir las listas de opciones
+$directions: row, row-reverse, column, column-reverse;
+$justifies: flex-start, flex-end, center, space-between, space-around;
+$aligns: stretch, flex-start, flex-end, center, baseline;
+$wraps: nowrap, wrap, wrap-reverse;
+
+// Mixin para flex
+@mixin flex($direction, $justify, $align, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+// Clase base
+.flex {
+  @include flex(row, center, center, wrap);
+}
+
+// Generar las clases modificadoras
+@each $direction in $directions {
+  .flex-#{$direction} {
+    flex-direction: $direction;
+  }
+}
+
+@each $justify in $justifies {
+  .flex-justify-#{$justify} {
+    justify-content: $justify;
+  }
+}
+
+@each $align in $aligns {
+  .flex-align-#{$align} {
+    align-items: $align;
+  }
+}
+
+@each $wrap in $wraps {
+  .flex-#{$wrap} {
+    flex-wrap: $wrap;
+  }
+}
+
+@for $i from 0 through 5 {
+  .flex-gap-#{$i} {
+    gap: #{$i}rem;
+  }
+  .flex-gap-row-#{$i} {
+    row-gap: #{$i}rem;
+  }
+  .flex-gap-column-#{$i} {
+    column-gap: #{$i}rem;
+  }
+}
