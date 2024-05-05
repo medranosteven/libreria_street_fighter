@@ -37,30 +37,30 @@ $icon-color: rgb(252, 246, 246);
 
 // Styles
 .badge {
-    @include badge-style($badge-color, $icon-color, '/img/Zangief.png');
+    @include badge-style($badge-color, $icon-color, '../img/Zangief.png');
     
     &.primary {
-        @include badge-style($primary-color, $icon-color, '/img/honda.png');
+        @include badge-style($primary-color, $icon-color, '../img/honda.png');
     }
     
     &.secondary {
-        @include badge-style($secondary-color, $icon-color, '/img/ken.png');
+        @include badge-style($secondary-color, $icon-color, '../img/ken.png');
     }
     
     &.success {
-        @include badge-style($success-color, $icon-color, '/img/chun-li.png');
+        @include badge-style($success-color, $icon-color, '../img/chun-li.png');
     }
     
     &.danger {
-        @include badge-style($danger-color, $icon-color, '/img/ryu.png');
+        @include badge-style($danger-color, $icon-color, '../img/ryu.png');
     }
     
     &.warning {
-        @include badge-style($warning-color, $icon-color, '/img/bison.png');
+        @include badge-style($warning-color, $icon-color, '../img/bison.png');
     }
     
     &.info {
-        @include badge-style($info-color, $icon-color, '/img/blanka.png');
+        @include badge-style($info-color, $icon-color, '../img/blanka.png');
     }
 
 
