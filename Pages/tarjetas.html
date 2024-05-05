@@ -25,7 +25,7 @@
     </div>
     <div class="container">
         <div id="mySidebar" class="sidebar txt-Roboto">
-            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">
+            <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X
                 <i class="fa-regular fa-rectangle-xmark"></i>
             </a>
             <a class="texto parrafo" style="color: black;" href="#">
@@ -78,61 +78,59 @@
             </a>
 
         </div>
-
         <div id="principal">
+            <main class="txt-Montserrat">
+                <section id="codigo-original">
+                    <h2>Tarjetas</h2>
+                    <h3>Clase card-1</h3>
+                    <div class="card-1">
+                        <img src="/img/personaje_1.png" alt="Espacio para imagen">
+                        <div class="card-content">
+                          <h2>Título de la Tarjeta</h2>
+                          <p>Contenido de la tarjeta...</p>
+                          <a href="#">Botón</a>
+                        </div>
+                      </div>
+                    <pre class="border">
+                        &lt;div class="card-1"&gt;
+                            &lt;img src="img/personaje_1.png" alt="Descripción de la imagen"&gt;
+                            &lt;div class="card-content"&gt;
+                                &lt;h2&gt;Título de la Tarjeta&lt;/h2&gt;
+                                &lt;p&gt;Contenido de la tarjeta...&lt;/p&gt;
+                                &lt;a href="#"&gt;Botón&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </pre>
+                </section>
+                <section id="documentacion" class="shadow-2">
+                    <article>
+                        <p>La librería card-1 ofrece una estructura flexible para crear tarjetas de contenido que pueden incluir imágenes, texto y enlaces. Es útil para presentar información de manera organizada y visualmente atractiva en páginas web.</p>
+                    </article>
+                </section>
+    
+                <h3>Clase card-2</h3>
+                    <div class="card-2">
+                        <div class="card-content">
+                          <h2>Título de la Tarjeta</h2>
+                          <p>Contenido de la tarjeta...</p>
+                        </div>
+                      </div>
+                    <pre class="border">
+                        &lt;div class="card-2"&gt;
+                            &lt;div class="card-content"&gt;
+                                &lt;h2&gt;Título de la Tarjeta&lt;/h2&gt;
+                                &lt;p&gt;Contenido de la tarjeta...&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </pre>
+                </section>
+                <section id="documentacion" class="shadow-2">
+                    <article>
+                        <p>La librería card-2 ofrece una estructura flexible para crear tarjetas de contenido que pueden incluir texto y enlaces. Es útil para presentar información de manera organizada y visualmente atractiva en páginas web.</p>
+                    </article>
+                </section>
+            </main>
         </div>
-
-        <main class="txt-Montserrat">
-            <section id="codigo-original">
-                <h2>Tarjetas</h2>
-                <h3>Clase card-1</h3>
-                <div class="card-1">
-                    <img src="/img/personaje_1.png" alt="Espacio para imagen">
-                    <div class="card-content">
-                      <h2>Título de la Tarjeta</h2>
-                      <p>Contenido de la tarjeta...</p>
-                      <a href="#">Botón</a>
-                    </div>
-                  </div>
-                <pre class="border">
-                    &lt;div class="card-1"&gt;
-                        &lt;img src="img/personaje_1.png" alt="Descripción de la imagen"&gt;
-                        &lt;div class="card-content"&gt;
-                            &lt;h2&gt;Título de la Tarjeta&lt;/h2&gt;
-                            &lt;p&gt;Contenido de la tarjeta...&lt;/p&gt;
-                            &lt;a href="#"&gt;Botón&lt;/a&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                </pre>
-            </section>
-            <section id="documentacion" class="shadow-2">
-                <article>
-                    <p>La librería card-1 ofrece una estructura flexible para crear tarjetas de contenido que pueden incluir imágenes, texto y enlaces. Es útil para presentar información de manera organizada y visualmente atractiva en páginas web.</p>
-                </article>
-            </section>
-
-            <h3>Clase card-2</h3>
-                <div class="card-2">
-                    <div class="card-content">
-                      <h2>Título de la Tarjeta</h2>
-                      <p>Contenido de la tarjeta...</p>
-                    </div>
-                  </div>
-                <pre class="border">
-                    &lt;div class="card-2"&gt;
-                        &lt;div class="card-content"&gt;
-                            &lt;h2&gt;Título de la Tarjeta&lt;/h2&gt;
-                            &lt;p&gt;Contenido de la tarjeta...&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                </pre>
-            </section>
-            <section id="documentacion" class="shadow-2">
-                <article>
-                    <p>La librería card-2 ofrece una estructura flexible para crear tarjetas de contenido que pueden incluir texto y enlaces. Es útil para presentar información de manera organizada y visualmente atractiva en páginas web.</p>
-                </article>
-            </section>
-        </main>
 
         <script>
             function openNav() {
