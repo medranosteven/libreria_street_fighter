@@ -14,9 +14,10 @@ $color-boton-texto: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-bottom: 2px solid $color-boton-fondo;
+
   }
 
   .card-content {
