@@ -75,6 +75,7 @@ $color-destello: rgba(229, 52, 78, 0.5);
             background-color: $color-destello;
             animation: glow 0.5s infinite alternate;
         }
+        
 
         @keyframes glow {
             from {
