@@ -9,69 +9,143 @@
 </head>
 
 <body>
+  <div class="Navbar-1">
+    <nav>
+      <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACIÓN</a></li>
+        <li class="icon-container">
+          <img src="../img/KO.png" alt="Icono" class="icon" />
+          <a href="https://github.com/medranosteven/libreria_street_fighter.git">GITHUB</a>
+        </li>
+        <li><a href="#">DESCARGAR</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="mySidebar" class="sidebar txt-Roboto">
+    <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">X
+      <i class="fa-regular fa-rectangle-xmark"></i>
+    </a>
+    <a class="texto parrafo" style="color: black;" href="#">
+      <i class="fa-solid fa-screwdriver-wrench"></i> CREAR COMPONENTES
+    </a>
+    <a class="texto-parrafo" href="../Pages/button.html">
+      <i class="fa-solid fa-toggle-on"></i> Botones
+    </a>
+    <a class="texto-parrafo" href="#">
+      <i class="fa-solid fa-text-slash"></i> Formularios
+    </a>
+    <a class="texto-parrafo" href="../Pages/tarjetas.html">
+      <i class="fa-solid fa-address-card"></i> Tarjetas
+    </a>
+    <a class="texto-parrafo" href="../Pages/alertas.html">
+      <i class="fa-solid fa-circle-exclamation"></i> Alertas
+    </a>
+    <a class="texto-parrafo" href="../Pages/Navbar.html">
+      <i class="fa-solid fa-bars"></i> Barras de Navegacion
+    </a>
+    <a class="texto-parrafo" href="../Pages/Badge.html">
+      <i class="fa-solid fa-certificate"></i> Badges
+    </a>
+    <a class="texto-parrafo" href="../Pages/Container.html">
+      <i class="fa-solid fa-box"></i> Contenedores
+    </a>
+    <a class="texto parrafo" style="color: black;" href="#">
+      <i class="fa-solid fa-toolbox"></i> CLASES UTILITARIAS
+    </a>
+    <a class="texto-parrafo" href="../Pages/aspecto-texto.html">
+      <i class="fa-solid fa-italic"></i> Modificar aspecto del texto
+    </a>
+    <a class="texto-parrafo" href="../Pages/sombras.html">
+      <i class="fa-solid fa-circle-half-stroke"></i> Crear sombras
+    </a>
+    <a class="texto-parrafo" href="../Pages/margenes-bordes.html">
+      <i class="fa-solid fa-border-top-left"></i> Crear margenes, paddings
+    </a>
+    <a class="texto-parrafo" href="../Pages/MoverElemento.html">
+      <i class="fa-solid fa-up-down-left-right"></i> Mover elementos
+    </a>
+    <a class="texto-parrafo" href="../Pages/Redondeo.html">
+      <i class="fa-solid fa-circle"></i> Redondear elementos
+    </a>
+    <a class="texto-parrafo" href="../Pages/Ocultar.html">
+      <i class="fa-solid fa-eye-slash"></i> Ocultar elementos
+    </a>
+    <a class="texto-parrafo" href="../Pages/colors.html">
+      <i class="fa-solid fa-palette"></i> Colores de fondo para elementos
+    </a>
 
-  <div class="container">
+  </div>
+  <div id="principal">
+  </div>
+
+  <div class="container txt-Overpass" >
     <div class="row">
       <div class="column">
-        <div class="box sf-bg-red">
+        <p>En nuestra librería CSS inspirada en Street Fighter, hemos creado una serie de clases que puedes utilizar para aplicar 
+          diferentes colores a tus elementos y darles un toque único y vibrante. A continuación, te presentamos una lista de algunos 
+          de los colores disponibles junto con sus nombre y nombre de sus clases:</p>
+        <h2>Clase sf-bg-red</h2>
+        <div class="box sf-bg-red" style="margin-right: 50%;">
           <h2>Rojo</h2>
         </div>
-        <div class="box sf-bg-red-light">
+        <h2>Clase sf-bg-red-light</h2>
+        <div class="box sf-bg-red-light" style="margin-right: 50%;">
           <h2>Rojo Claro</h2>
         </div>
-        <div class="box sf-bg-red-dark">
+        <div class="box sf-bg-red-dark" style="margin-right: 50%;">
           <h2>Rojo Oscuro</h2>
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-blue">
+        <div class="box sf-bg-blue" style="margin-right: 50%;">
           <h2>Azul</h2>
         </div>
-        <div class="box sf-bg-blue-light">
+        <div class="box sf-bg-blue-light" style="margin-right: 50%;">
           <h2>Azul Claro</h2>
         </div>
-        <div class="box sf-bg-blue-dark">
+        <div class="box sf-bg-blue-dark" style="margin-right: 50%;">
           <h2>Azul Oscuro</h2>
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-green">
+        <div class="box sf-bg-green" style="margin-right: 50%;">
           <h2>Verde</h2>
         </div>
-        <div class="box sf-bg-green-light">
+        <div class="box sf-bg-green-light" style="margin-right: 50%;">
           <h2>Verde Claro</h2>
         </div>
-        <div class="box sf-bg-green-dark">
+        <div class="box sf-bg-green-dark" style="margin-right: 50%;">
           <h2>Verde Oscuro</h2>
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-yellow">
+        <div class="box sf-bg-yellow" style="margin-right: 50%;">
           <h2>Amarillo</h2>
         </div>
-        <div class="box sf-bg-yellow-light">
+        <div class="box sf-bg-yellow-light" style="margin-right: 50%;">
           <h2>Amarillo Claro</h2>
         </div>
-        <div class="box sf-bg-yellow-dark">
+        <div class="box sf-bg-yellow-dark" style="margin-right: 50%;">
           <h2>Amarillo Oscuro</h2>
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-purple">
+        <div class="box sf-bg-purple" style="margin-right: 50%;">
           <h2>Púrpura</h2>
         </div>
-        <div class="box sf-bg-purple-light">
+        <div class="box sf-bg-purple-light" style="margin-right: 50%;">
           <h2>Púrpura Claro</h2>
         </div>
-        <div class="box sf-bg-purple-dark">
+        <div class="box sf-bg-purple-dark" style="margin-right: 50%;">
           <h2>Púrpura Oscuro</h2>
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-orange">
+        <div class="box sf-bg-orange" style="margin-right: 50%;">
           <h2>Naranja</h2>
         </div>
-        <div class="box sf-bg-orange-light">
+        <div class="box sf-bg-orange-light" style="margin-right: 50%;">
           <h2>Naranja Claro</h2>
         </div>
         <div class="box sf-bg-orange-dark">
@@ -145,7 +219,7 @@
         </div>
       </div>
       <div class="column">
-        <div class="box sf-bg-black">
+        <div class="box sf-bg-black" style="color: white;">
           <h2>Negro</h2>
         </div>
         <div class="column"></div>
@@ -155,6 +229,21 @@
       </div>
     </div>
   </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("principal").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("principal").style.marginLeft = "0";
+    }
+  </script>
+  <footer class="txt-Roboto texto-parrafo">
+    <img src="/img/capcom.png" style="width: 8%; height: auto;">
+    <p>&copy; 2024 Biblioteca de Estilos Street Fighter II. Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 
