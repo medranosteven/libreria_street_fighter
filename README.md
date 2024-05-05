@@ -57,7 +57,7 @@ Una vez clonado el repositorio, asegúrate de que el directorio esté ubicado do
 Para importar las bibliotecas de estilos, incluye el archivo style.css en el <head> de tu documento HTML de la siguiente manera:
 ```
 <head>
-    <link rel="stylesheet" href="/libreria_street_fighter/scss/style.css">
+    <link rel="stylesheet" href="/libreria_street_fighter/Styles/style.css">
     <title>Tu Título</title>
 </head>
 ```
