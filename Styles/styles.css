@@ -267,6 +267,12 @@ body {
   padding: 16px;
 }
 
+.ig {
+  width: 8vh;
+  padding: 8px;
+  float: left;
+}
+
 pre {
   background-color: #f4f4f4;
   padding: 15px;
@@ -379,6 +385,10 @@ footer {
 
 .pt-3 {
   padding-top: 1rem;
+}
+
+.p-3 {
+  padding: 10px;
 }
 
 /* Clases para Relleno Inferior */

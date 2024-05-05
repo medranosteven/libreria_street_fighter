@@ -2,6 +2,9 @@
 // VARIABLES
 $color-fondo: yellow;
 $color-destello: rgba(229, 52, 78, 0.5);
+$tama: 8vh;
+$p:8px;
+$f:left;
 
 //Clase de la barra de navegacion 1
 .Navbar-1 {
@@ -87,6 +90,12 @@ $color-destello: rgba(229, 52, 78, 0.5);
     }
 }
 
+//clase logo
+.ig{
+    width: $tama;
+    padding: $p;
+    float: $f;
+}
 
 
 body {
