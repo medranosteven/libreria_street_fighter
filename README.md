@@ -15,7 +15,7 @@ Se agregron clases y utilidades a la libreria de componentes
    - Barras de navegación:  Se agregaron clases para diseñar barras de navegación.
    - Badges: Se añadieron clases para badges con 4 estilos diferentes.
    - Containers: Se implementaron clases para containers con 3 estilos diferentes que también se adaptan      para diseño responsive.
- 
+2. Utilidades: 
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
