@@ -1,49 +1,53 @@
-$button-sizes: (
-  small: 0.8rem,
-  medium: 1rem,
-  large: 1.2rem
-);
-
-$button-colors: (
-  primary: #e3c7ab,
-  secondary: #2b2a36,
-  success: #a25f52,
-  danger: #5c91b9,
-);
-
-@mixin button($size, $color) {
-  display: inline-block;
-  border: none;
-  border-radius: 4px;
-  padding: map-get($button-sizes, $size); 
-  font-size: map-get($button-sizes, $size); 
-  color: #fff;
-  background-color: map-get($button-colors, $color); 
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: darken(map-get($button-colors, $color), 10%); 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
   }
-}
-
-.button {
-  &--small {
-    @include button(small, primary);
+  
+  .primary {
+    background-color: #007bff;
+    color: #fff;
   }
-  &--medium {
-    @include button(medium, primary);
+  
+  .secondary {
+    background-color: #6c757d;
+    color: #fff;
   }
-  &--large {
-    @include button(large, primary);
+  
+  .success {
+    background-color: #28a745;
+    color: #fff;
   }
-  &--secondary {
-    @include button(medium, secondary);
+  
+  .danger {
+    background-color: #dc3545;
+    color: #fff;
   }
-  &--success {
-    @include button(medium, success);
+  
+  .small {
+    padding: 5px 10px;
   }
-  &--danger {
-    @include button(medium, danger);
+  
+  .large {
+    padding: 15px 30px;
   }
-}
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col {
+      flex: 100%;
+      margin: 10px 0;
+    }
+  }
