@@ -12,7 +12,7 @@ Se agregron clases y utilidades a la libreria de componentes
    - Formularios: Se añadieron clases para diseñar formularios y elementos de formularios.
    - Tarjetas: Se implementaron clases para crear tarjetas.
    - Alertas: Se incluyeron clases para alertas con 4 estilos diferentes.
-   - Barras de navegación:
+   - Barras de navegación:  Se agregaron clases para diseñar barras de navegación.
  
 
 
