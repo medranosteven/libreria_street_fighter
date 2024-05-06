@@ -22,7 +22,7 @@ Se agregron clases y utilidades a la libreria de componentes
     - Redondeo de elementos: Se incluyeron clases para redondear elementos.
     - Ocultar elementos: Se añadieron clases para ocultar elementos.
     - Colores de fondo: Se agregaron clases para establecer colores de fondo de elementos.
-
+Estos cambios 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
 ![ken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/6cd9c9c0-479c-4b04-99d9-ff39ccf02826)
