@@ -18,7 +18,7 @@ Se agregron clases y utilidades a la libreria de componentes
 2. Utilidades:
     - Modificación de texto: Se agregaron clases para modificar tamaño, grosor, color o tipo de texto.
     - Sombras: Se incluyeron clases para aplicar sombras a elementos.
-    - Márgenes, paddings y bordes: Se añadieron clases para crear márgenes,
+    - Márgenes, paddings y bordes: Se añadieron clases para crear márgenes, 
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
