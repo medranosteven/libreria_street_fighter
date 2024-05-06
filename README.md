@@ -20,7 +20,7 @@ Se agregron clases y utilidades a la libreria de componentes
     - Sombras: Se incluyeron clases para aplicar sombras a elementos.
     - Márgenes, paddings y bordes: Se añadieron clases para crear márgenes, paddings o bordes a elementos.
     - Redondeo de elementos: Se incluyeron clases para redondear elementos.
-    - Ocultar elementos:
+    - Ocultar elementos: Se añadieron
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
