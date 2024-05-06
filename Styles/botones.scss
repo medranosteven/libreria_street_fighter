@@ -1,53 +1,49 @@
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
+$button-sizes: (
+  small: 0.8rem,
+  medium: 1rem,
+  large: 1.2rem
+);
+
+$button-colors: (
+  primary: #007bff,
+  secondary: #6c757d,
+  success: #28a745,
+  danger: #dc3545
+);
+
+@mixin button($size, $color) {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: map-get($button-sizes, $size); 
+  font-size: map-get($button-sizes, $size); 
+  color: #fff;
+  background-color: map-get($button-colors, $color); 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(map-get($button-colors, $color), 10%); 
   }
-  
-  .primary {
-    background-color: #007bff;
-    color: #fff;
+}
+
+.button {
+  &--small {
+    @include button(small, primary);
   }
-  
-  .secondary {
-    background-color: #6c757d;
-    color: #fff;
+  &--medium {
+    @include button(medium, primary);
   }
-  
-  .success {
-    background-color: #28a745;
-    color: #fff;
+  &--large {
+    @include button(large, primary);
   }
-  
-  .danger {
-    background-color: #dc3545;
-    color: #fff;
+  &--secondary {
+    @include button(medium, secondary);
   }
-  
-  .small {
-    padding: 5px 10px;
+  &--success {
+    @include button(medium, success);
   }
-  
-  .large {
-    padding: 15px 30px;
+  &--danger {
+    @include button(medium, danger);
   }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .col {
-    flex: 1;
-    margin: 0 10px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .col {
-      flex: 100%;
-      margin: 10px 0;
-    }
-  }
+}
