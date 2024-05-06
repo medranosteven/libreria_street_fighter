@@ -17,6 +17,7 @@ Se agregron clases y utilidades a la libreria de componentes
    - Containers: Se implementaron clases para containers con 3 estilos diferentes que también se adaptan      para diseño responsive.
 2. Utilidades:
     - Modificación de texto: Se agregaron clases para modificar tamaño, grosor, color o tipo de texto.
+    - 
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
