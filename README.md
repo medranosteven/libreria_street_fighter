@@ -9,6 +9,7 @@
 Se agregron clases y utilidades a la libreria de componentes
 1. Componentes:
    - Botones: Se agregaron clases para crear botones con 4 estilos diferentes y 3 tamaños diferentes.
+   - Formularios: 
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
