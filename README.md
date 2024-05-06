@@ -17,8 +17,12 @@ Se agregron clases y utilidades a la libreria de componentes
    - Containers: Se implementaron clases para containers con 3 estilos diferentes que también se adaptan      para diseño responsive.
 2. Utilidades:
     - Modificación de texto: Se agregaron clases para modificar tamaño, grosor, color o tipo de texto.
-    - Sombras: Se incluyeron clases
-
+    - Sombras: Se incluyeron clases para aplicar sombras a elementos.
+    - Márgenes, paddings y bordes: Se añadieron clases para crear márgenes, paddings o bordes a elementos.
+    - Redondeo de elementos: Se incluyeron clases para redondear elementos.
+    - Ocultar elementos: Se añadieron clases para ocultar elementos.
+    - Colores de fondo: Se agregaron clases para establecer colores de fondo de elementos.
+Estos cambios agregan una amplia gama de funcionalidades y estilos de componentes, lo que permite una mayor flexibilidad y personalización en el diseño de interfaces.
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
 ![ken](https://github.com/medranosteven/libreria_street_fighter/assets/97776616/6cd9c9c0-479c-4b04-99d9-ff39ccf02826)
