@@ -13,7 +13,7 @@ Se agregron clases y utilidades a la libreria de componentes
    - Tarjetas: Se implementaron clases para crear tarjetas.
    - Alertas: Se incluyeron clases para alertas con 4 estilos diferentes.
    - Barras de navegación:  Se agregaron clases para diseñar barras de navegación.
-   - Badges:
+   - Badges: Se añadieron clases para badges con 4 estilos diferentes.
  
 
 
