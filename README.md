@@ -8,7 +8,7 @@
 # Que Contiene 👨🏻‍💻
 Se agregron clases y utilidades a la libreria de componentes
 1. Componentes:
-   - Botones:
+   - Botones: Se agregaron clases para crear botones con 4 estilos diferentes y 3 tamaños diferentes.
 
 
 # Sobre la Biblioteca de Estilos &#128218; &#128366;
